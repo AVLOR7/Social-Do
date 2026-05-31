@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 # ضع التوكن الخاص بك هنا بين علامتي التنصيص
-TOKEN = '8575028616:AAG7dopQ2W-gEH0Bb6pWGFJ_NOHuJ_DSnLw'
+TOKEN = '8575028616:AAGOQ44lQN8f7die3C7Ax9D01xpa_3ZxVjo'
 
 async def start(update, context):
     await update.message.reply_text('أهلاً! أنا بوت التحميل، أرسل الرابط وسأقوم بتحميله.')
